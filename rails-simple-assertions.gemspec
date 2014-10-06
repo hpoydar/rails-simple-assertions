@@ -2,7 +2,6 @@
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'rails_simple_assertions/version'
-require 'rails_simple_assertions'
 
 Gem::Specification.new do |spec|
   spec.name          = "rails-simple-assertions"

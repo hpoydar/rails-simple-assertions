@@ -20,6 +20,10 @@ Or install it yourself as:
 
     $ gem install rails-simple-assertions
 
+In `test_helper.rb`:
+
+    require 'rails_simple_assertions'
+
 ## Usage
 
     assert_association Post, :has_many, :comments
